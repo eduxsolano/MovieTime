@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"
+            android:title="Movies" />
+
+    </group>
+
+    <item android:title="About Developer">
+        <menu>
+
+            <item
+                android:id="@+id/nav_cv"
+                android:icon="@drawable/ic_attach_file_black_24dp"
+                android:title="View CV" />
+
+            <item
+                android:id="@+id/nav_portfolio"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Portfolio" />
+
+        </menu>
+    </item>
+
+</menu>

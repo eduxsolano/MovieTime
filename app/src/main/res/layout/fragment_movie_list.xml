@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<tech.eduardosolano.movietime.Utils.EmptyRecyclerView
+
+    android:id="@+id/list"
+    android:name="tech.eduardosolano.movietime.MovieListFragmen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkSlateGray"/>
+
+    <include
+        android:id="@+id/empty"
+
+        layout="@layout/empty_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    </FrameLayout>

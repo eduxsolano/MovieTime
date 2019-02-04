@@ -1,0 +1,11 @@
+  Retrofit: Rest client
+    Read more: https://square.github.io/retrofit/
+
+  Butterknife: Bind views
+    Read more: http://jakewharton.github.io/butterknife/
+
+  Picasso: Load image into ImageView
+    Read more: http://square.github.io/picasso/
+
+  TapTargetView: Library to show tutorial
+    Read more: https://github.com/KeepSafe/TapTargetView
